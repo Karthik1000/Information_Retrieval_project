@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style >
+        body{
+            background-color: lightgray;
+        }
+        .main_class{
+            width:70%;
+            padding-left: 15%;
+        }
+    </style>
+</head>
+<body>
+<br><br>
+<div class="main_class">
+{% for i in code %}
+{{ i }}<br>
+{% endfor %}
+</div>
+</body>
+</html>
